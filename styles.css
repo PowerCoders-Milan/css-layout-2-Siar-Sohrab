@@ -1,17 +1,45 @@
-/* USE CSS LAYOUTS HERE */
+body {
+    display:grid;
+    padding: 2px 2px 2px 2px;
+    margin: 2px 2px 2px 2px;
+    min-height: 100vh;
+    display:grid;
+    grid-template-rows: auto 1fr auto;
+    grid-area: auto;
+    position: relative;
 
+}
 .header {
-
+    font-size: 20px;
+    background-color: rgb(4, 61, 80);
+    text-align: center;
+    padding: 10px 10px 20px 10px;
+    color: blanchedalmond;
+    margin: 10px 10px 20px 10px;
+    
+    
+ 
 }
-
 .main {
-
+    box-sizing: content-box;
+    background-color: lightgreen;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    padding-bottom: 4rem;
+    
 }
 
-.footer-grid {
-
-}
-
-.footer-flex {
+.footer {
+    background-color: rgb(4, 61, 80);
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    color: blanchedalmond;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 4rem;
+    
 
 }
